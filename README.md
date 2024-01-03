@@ -12,13 +12,13 @@
    ```
 
 
-5. Als nächstes installieren Sie Pakete, die für die weiteren Installationen benötigt werden, mit folgendem Befehl:
+4. Als nächstes installieren Sie Pakete, die für die weiteren Installationen benötigt werden, mit folgendem Befehl:
    ```
    apt install ca-certificates apt-transport-https lsb-release gnupg curl nano unzip -y
    ```
 
 
-7. Für Debian:
+Für Debian:
 Fügen Sie mithilfe des Befehls
 ```
 curl -fsSL https://packages.sury.org/php/apt.gpg -o /usr/share/keyrings/php-archive-keyring.gpg
@@ -38,25 +38,25 @@ um nun die Paketquelle hinzuzufügen.
    ```
 
 
-7. Installieren Sie den Apache2-Webserver sowie weitere benötigte Pakete mit folgendem Befehl:
+6. Installieren Sie den Apache2-Webserver sowie weitere benötigte Pakete mit folgendem Befehl:
    ```
    apt install apache2 -y
    ```
 
 
-9. Installieren Sie anschließend PHP 8 sowie einige wichtige PHP-Module. Der Befehl hierfür lautet:
+7. Installieren Sie anschließend PHP 8 sowie einige wichtige PHP-Module. Der Befehl hierfür lautet:
     ```
    apt install php8.2 php8.2-cli php8.2-common php8.2-curl php8.2-gd php8.2-intl php8.2-mbstring php8.2-mysql php8.2-opcache php8.2-readline php8.2-xml php8.2-xsl php8.2-zip php8.2-bz2 libapache2-mod-php8.2 -y
     ```
 
 
-11. Als nächstes installieren Sie den MariaDB-Server und -Client (MySQL) mit dem Befehl
+8. Als nächstes installieren Sie den MariaDB-Server und -Client (MySQL) mit dem Befehl
 ```
 apt install mariadb-server mariadb-client -y
 ```
 
 
-12. Schließen Sie nun die Konfiguration des MariaDB-Servers ab:
+9. Schließen Sie nun die Konfiguration des MariaDB-Servers ab:
 Debian 11:
 
 Geben Sie nun den Befehl
