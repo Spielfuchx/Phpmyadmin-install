@@ -55,7 +55,7 @@ Geben Sie nun den Befehl ```mysql_secure_installation``` ein. Bei der ersten Abf
 
 
 17. Fügen Sie in diese Konfigurationsdatei nun folgenden Inhalt ein:
-```#
+```
 # phpMyAdmin Apache configuration
 
 Alias /phpmyadmin /usr/share/phpmyadmin
@@ -74,7 +74,8 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 <Directory /usr/share/phpmyadmin/setup/lib>
     Require all denied
-</Directory>```
+</Directory>
+```
 Speichern Sie Ihre Änderungen der Konfiguration, indem Sie STRG + X, danach die "Y"-Taste und anschließend Enter drücken.
 
 
