@@ -55,7 +55,8 @@ Geben Sie nun den Befehl ```mysql_secure_installation``` ein. Bei der ersten Abf
 
 
 17. Fügen Sie in diese Konfigurationsdatei nun folgenden Inhalt ein:
-```# phpMyAdmin Apache configuration
+```#
+# phpMyAdmin Apache configuration
 
 Alias /phpmyadmin /usr/share/phpmyadmin
 
