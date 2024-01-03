@@ -1,15 +1,21 @@
 # Phpmyadmin-install
 
-1. Aktualisieren Sie nun Ihre Paketlisten mit dem Befehl ```apt update```
+1. Aktualisieren Sie nun Ihre Paketlisten mit dem Befehl
+   ```
+   apt update
+   ```
 
 
-2. Installieren Sie jetzt möglicherweise verfügbare Updates der auf Ihrem Server bereits installieren Pakete mit dem Befehl ```apt upgrade -y```
+3. Installieren Sie jetzt möglicherweise verfügbare Updates der auf Ihrem Server bereits installieren Pakete mit dem Befehl
+   ```
+   apt upgrade -y
+   ```
 
 
-3. Als nächstes installieren Sie Pakete, die für die weiteren Installationen benötigt werden, mit folgendem Befehl: ```apt install ca-certificates apt-transport-https lsb-release gnupg curl nano unzip -y```
+5. Als nächstes installieren Sie Pakete, die für die weiteren Installationen benötigt werden, mit folgendem Befehl: ```apt install ca-certificates apt-transport-https lsb-release gnupg curl nano unzip -y```
 
 
-4. Für Debian:
+6. Für Debian:
 Fügen Sie mithilfe des Befehls ```curl -fsSL https://packages.sury.org/php/apt.gpg -o /usr/share/keyrings/php-archive-keyring.gpg``` den für die PHP-Paketquelle benötigen Key hinzu.
 
 Verwenden Sie den Befehl ```echo "deb [signed-by=/usr/share/keyrings/php-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list``` um nun die Paketquelle hinzuzufügen.
